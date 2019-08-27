@@ -10,33 +10,47 @@ namespace PaymentAPI.Controllers
     [ApiController]
     public class CustomersController : ControllerBase
     {
-        // GET api/values
+        CustomersMethods cService = new CustomersMethods();
+
+        // GET api/customers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+
             return new string[] { "value3", "value4" };
         }
 
-        // GET api/values/5
+        // GET api/customers/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            List<CustomersDatum> delinquents = cService.getDelinquents();
+            string isDelinquent = "0";
+            //int userID = Convert.ToInt32(id);
+            for (int i=0; i<delinquents.Count; i++)
+            {
+                if(delinquents.ElementAt(i).Id == id.ToString())
+                {
+                    isDelinquent = "1";
+                }
+            }
+            return isDelinquent;
         }
 
-        // POST api/values
+
+        // POST api/customers
         [HttpPost]
         public void Post([FromBody] string value)
         {
         }
 
-        // PUT api/values/5
+        // PUT api/customers/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
 
-        // DELETE api/values/5
+        // DELETE api/customers/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
