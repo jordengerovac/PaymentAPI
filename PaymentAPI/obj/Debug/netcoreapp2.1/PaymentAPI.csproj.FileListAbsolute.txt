@@ -1,0 +1,14 @@
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/bin/Debug/netcoreapp2.1/PaymentAPI.deps.json
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/bin/Debug/netcoreapp2.1/PaymentAPI.runtimeconfig.json
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/bin/Debug/netcoreapp2.1/PaymentAPI.runtimeconfig.dev.json
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/bin/Debug/netcoreapp2.1/PaymentAPI.dll
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/bin/Debug/netcoreapp2.1/PaymentAPI.pdb
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/obj/Debug/netcoreapp2.1/PaymentAPI.csprojAssemblyReference.cache
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/obj/Debug/netcoreapp2.1/PaymentAPI.csproj.CoreCompileInputs.cache
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/obj/Debug/netcoreapp2.1/PaymentAPI.RazorAssemblyInfo.cache
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/obj/Debug/netcoreapp2.1/PaymentAPI.RazorAssemblyInfo.cs
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/obj/Debug/netcoreapp2.1/PaymentAPI.AssemblyInfoInputs.cache
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/obj/Debug/netcoreapp2.1/PaymentAPI.AssemblyInfo.cs
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/obj/Debug/netcoreapp2.1/PaymentAPI.RazorTargetAssemblyInfo.cache
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/obj/Debug/netcoreapp2.1/PaymentAPI.dll
+/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/obj/Debug/netcoreapp2.1/PaymentAPI.pdb
