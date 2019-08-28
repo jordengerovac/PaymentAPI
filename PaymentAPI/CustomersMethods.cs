@@ -33,7 +33,7 @@ namespace PaymentAPI
             {
                 if (count % 5 == 0)
                 {
-                    System.Diagnostics.Debug.WriteLine(count);
+                    System.Diagnostics.Debug.WriteLine(customer.Id);
 
                     customer.Delinquent = true;
                 }
@@ -49,7 +49,6 @@ namespace PaymentAPI
                 if (customer.Delinquent == true)
                 {
                     delinquents.Add(customer);
-                    System.Diagnostics.Debug.WriteLine(delinquents.Count);
 
                 }
             }

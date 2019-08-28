@@ -22,14 +22,14 @@ namespace PaymentAPI.Controllers
 
         // GET api/customers/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<string> Get(string id)
         {
             List<CustomersDatum> delinquents = cService.getDelinquents();
             string isDelinquent = "0";
             //int userID = Convert.ToInt32(id);
             for (int i=0; i<delinquents.Count; i++)
             {
-                if(delinquents.ElementAt(i).Id == id.ToString())
+                if(delinquents.ElementAt(i).Id == id)
                 {
                     isDelinquent = "1";
                 }

@@ -11799,28 +11799,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/jordengerovac/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\moviw\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/PaymentAPI.csproj",
+      "projectUniqueName": "C:\\repos\\The only folder that matters\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
       "projectName": "PaymentAPI",
-      "projectPath": "/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/PaymentAPI.csproj",
-      "packagesPath": "/Users/jordengerovac/.nuget/packages/",
-      "outputPath": "/Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/obj/",
+      "projectPath": "C:\\repos\\The only folder that matters\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
+      "packagesPath": "C:\\Users\\moviw\\.nuget\\packages\\",
+      "outputPath": "C:\\repos\\The only folder that matters\\PaymentAPI\\PaymentAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/jordengerovac/.config/NuGet/NuGet.Config"
+        "C:\\Users\\moviw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

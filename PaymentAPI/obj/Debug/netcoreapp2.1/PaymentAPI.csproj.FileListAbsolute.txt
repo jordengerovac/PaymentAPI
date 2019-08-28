@@ -12,3 +12,17 @@
 /Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/obj/Debug/netcoreapp2.1/PaymentAPI.RazorTargetAssemblyInfo.cache
 /Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/obj/Debug/netcoreapp2.1/PaymentAPI.dll
 /Users/jordengerovac/Projects/PaymentAPI/PaymentAPI/obj/Debug/netcoreapp2.1/PaymentAPI.pdb
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\bin\Debug\netcoreapp2.1\PaymentAPI.deps.json
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\bin\Debug\netcoreapp2.1\PaymentAPI.runtimeconfig.json
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\bin\Debug\netcoreapp2.1\PaymentAPI.runtimeconfig.dev.json
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\bin\Debug\netcoreapp2.1\PaymentAPI.dll
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\bin\Debug\netcoreapp2.1\PaymentAPI.pdb
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\obj\Debug\netcoreapp2.1\PaymentAPI.csprojAssemblyReference.cache
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\obj\Debug\netcoreapp2.1\PaymentAPI.csproj.CoreCompileInputs.cache
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\obj\Debug\netcoreapp2.1\PaymentAPI.RazorAssemblyInfo.cache
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\obj\Debug\netcoreapp2.1\PaymentAPI.RazorAssemblyInfo.cs
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\obj\Debug\netcoreapp2.1\PaymentAPI.AssemblyInfoInputs.cache
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\obj\Debug\netcoreapp2.1\PaymentAPI.AssemblyInfo.cs
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\obj\Debug\netcoreapp2.1\PaymentAPI.RazorTargetAssemblyInfo.cache
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\obj\Debug\netcoreapp2.1\PaymentAPI.dll
+C:\repos\The only folder that matters\PaymentAPI\PaymentAPI\obj\Debug\netcoreapp2.1\PaymentAPI.pdb
