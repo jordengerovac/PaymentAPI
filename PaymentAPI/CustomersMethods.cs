@@ -34,6 +34,7 @@ namespace PaymentAPI
                 if (count % 5 == 0)
                 {
                     System.Diagnostics.Debug.WriteLine(customer.Id);
+                    System.Diagnostics.Debug.WriteLine(customer.Name);
 
                     customer.Delinquent = true;
                 }
