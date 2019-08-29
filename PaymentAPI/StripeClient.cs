@@ -31,15 +31,17 @@ namespace PaymentAPI
         {
             string strResponseValue = string.Empty;
 
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(endpoint);
-            System.Diagnostics.Debug.WriteLine("TEST: " + httpMethod.ToString());
-            System.Diagnostics.Debug.WriteLine("TEST: " + httpMethod);
+            // build request
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(endpoint); 
             request.Method = httpMethod.ToString();
-
+            // add an authorization header
             request.Headers.Add("Authorization", "Basic " + Convert.ToBase64String(System.Text.ASCIIEncoding.ASCII.GetBytes($"sk_test_GXdRSMJMLiXJIDqc1qnEGWaA:")));
 
+
+            //make request
             using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
             {
+                //check for error codes
                 if (response.StatusCode != HttpStatusCode.OK)
                 {
                     throw new ApplicationException("error code: " + response.StatusCode.ToString());
@@ -60,10 +62,8 @@ namespace PaymentAPI
 
             }//End of using response
 
-
             return strResponseValue;
         }
-
         //}
 
     }
